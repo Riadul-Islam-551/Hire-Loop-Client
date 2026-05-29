@@ -9,7 +9,7 @@ import Navlinks from "./Navlinks";
 
 const Navbar = () => {
   return (
-    <div className="w-full shadow-sm shadow-gray-300 dark:shadow-gray-800">
+    <div className="w-full shadow-sm shadow-gray-300 dark:shadow-gray-700">
       <div className="container mx-auto  flex items-center justify-between p-4">
         <div className="flex items-center w-25 h-7.5 ">
           <a href="/">
