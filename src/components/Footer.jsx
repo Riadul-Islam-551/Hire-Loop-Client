@@ -2,7 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { LogoFacebook, LogoLinkedin, LogoTelegram } from "@gravity-ui/icons";
 
-import Logo from "../assets/logo.png";
+// import Logo from "/assets/logo.png";
 
 const Footer = () => {
   return (
@@ -14,7 +14,7 @@ const Footer = () => {
           <div className="space-y-6 col-span-2 md:col-span-3 lg:col-span-2 ">
             <Link href="/" className="inline-block">
               <Image
-                src={Logo}
+                src={'/assets/logo.png'}
                 alt="Programming Hero"
                 width={180}
                 height={60}

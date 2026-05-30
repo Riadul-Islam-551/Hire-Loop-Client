@@ -1,2 +1,6 @@
 @import "tailwindcss";
 @import "@heroui/styles";
+
+.color{
+    color: #fffaf7
+}

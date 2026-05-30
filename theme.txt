@@ -1,3 +1,6 @@
 for primary text :
 light : text-gray-900
 dark : text-gray-100 
+
+for secondary text:
+light:text-gray-600 dark:text-gray-400

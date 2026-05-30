@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../../assets/logo.png";
+// import Logo from "assets/logo.png";
 import Image from "next/image";
 import Link from "next/link";
 import { Button, Separator } from "@heroui/react";
@@ -9,12 +9,12 @@ import Navlinks from "./Navlinks";
 
 const Navbar = () => {
   return (
-    <div className="w-full shadow-sm shadow-gray-300 dark:shadow-gray-700">
+    <div className="w-full fixed top-0 z-50 bg-white dark:bg-gray-900   shadow-sm shadow-gray-300 dark:shadow-gray-700">
       <div className="container mx-auto  flex items-center justify-between p-4">
         <div className="flex items-center w-25 h-7.5 ">
           <a href="/">
             <Image
-              src={Logo}
+              src={'/assets/logo.png'}
               alt="Logo"
               height={200}
               width={200}

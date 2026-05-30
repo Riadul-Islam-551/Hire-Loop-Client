@@ -27,10 +27,10 @@ export default function RootLayout({ children }) {
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased `}
       suppressHydrationWarning
     >
-      <body className="min-h-full bg-white dark:bg-black  text-gray-900 dark:text-gray-100 transition-colors duration-200">
+      <body className="min-h-full bg-[#fffaf7] dark:bg-black  text-gray-900 dark:text-gray-100 transition-colors duration-200">
         <Providers>
           <Navbar></Navbar>
-          {children}
+          <main className="">{children}</main>
           <Footer></Footer>
         </Providers>
       </body>
